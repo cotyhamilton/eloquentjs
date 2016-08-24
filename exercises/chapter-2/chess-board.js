@@ -1,7 +1,7 @@
 size = 8;
 
 function chessBoard(x) {
-    board = "";
+    var board = "";
     for (var i = 0; i < x; i++) {
         for (var j = 0; j < x; j++) {
             if (board.length === 0) {
