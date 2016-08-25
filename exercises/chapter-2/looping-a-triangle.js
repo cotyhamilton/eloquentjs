@@ -1,9 +1,10 @@
-for (var pound = "#"; pound.length < 7; pound += "#") {
+for (var pound = "#"; pound.length < 8; pound += "#") {
     console.log(pound);
 }
 
 /* ----- OFFICIAL SOLUTION ----- *
 
-SAME AS ABOVE
+for (var line = "#"; line.length < 8; line += "#")
+  console.log(line);
 
  * ----------------------------- */
