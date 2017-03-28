@@ -4,7 +4,7 @@ function range(x,y,z) {
         max = (x > y ? x : y),
         min = (x < y ? x : y);
 
-    if (z == undefined) z = 1;
+    if (z == null) z = 1;
     
     if (z > 0) {
         for (var i = 0; i <= (diff/z); i++) {
@@ -33,7 +33,7 @@ function sum(list) {
     return total;
 }
 
-console.log(sum(range(11,5,2))); //official solution will return correct results with this input
+console.log(sum(range(11,5,2))); // official solution will not return correct results with this input
 
 /* ----- OFFICIAL SOLUTION ----- *
 
